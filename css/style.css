@@ -7,6 +7,8 @@
             background-image: url('../images/vigas.webp');
             background-size: cover;
             background-position: center;
+            background-repeat: no-repeat;
+            height: 950px;
             color: #d4af37; /* Dourado para o texto */
             line-height: 1.6;
         }
@@ -55,10 +57,18 @@
             border-radius: 5px 3px 2px 0px;
         }
         .tel {
+            color: #daaf23;
+            background-color: #777776;
+            border-color: #000000;
+            border: 5px;
+            border-radius: 30%
+            30% 1% ;
             font-size: 2.3rem;
             font-family: "Bebas Neue", serif;
             text-align: center;
-
+        }
+        .tel:hover {
+            color: red;
         }
         .cta-buttons {
             display: flex;
