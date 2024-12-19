@@ -83,10 +83,7 @@
             color: #d4af37; /* Dourado */
         }
         @media (max-width: 480px) {
-            header h1 {
-                background-image: url('../images/bda202f4ed3e54f2e8a1b4b106500175.jpg');
-                ;
-            }
+
             header p {
                 font-size: 1rem; /* Ajusta o tamanho do subtítulo em telas pequenas */
             }
